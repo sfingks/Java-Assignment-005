@@ -4,7 +4,7 @@ public class TempConversion {
     static final Scanner input = new Scanner(System.in);
 
     public static double convertC2F(double celsius) {
-        return (celsius * (9.0/5)) + 32.0;
+        return (celsius * (9.0 / 5)) + 32.0;
     }
 
     public static double convertC2K(double celsius) {
@@ -38,9 +38,10 @@ public class TempConversion {
         System.out.printf("%-4s : %40s%n", "K).", "To convert a °K temperature");
         System.out.printf("%-4s : %40s%n", "Q).", "To quit");
     }
-//changed from string to void
+
+    //changed from string to void
     public static void main(String[] args) {
-double finalTemp;
+        double finalTemp;
         System.out.println("What are you converting from?");
         getUnitChoice();
         String from = input.nextLine();
@@ -89,9 +90,6 @@ double finalTemp;
                 }
             }
         }
-
-
-
 
 
     }

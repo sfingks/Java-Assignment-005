@@ -14,7 +14,7 @@ As a new Java developer, you will be required to familiarize yourself with exist
 * Using Java terminology, break down method **getUnitChoice**.
     * What is the access modifier? //public
     * Is it a class or object method, how do you know? //I think it's an object again for the same reason as before, but I'm not sure
-    * What is its return type? //it was string. I made it void/no return type
+    * What is its return type? //it was string. I made it void/no return type.
     * What parameters does it require, and what are the parameter(s) datatype(s)? //none
     * Describe for me how the body of the method executes (i.e. its flow of execution). //it did print some lines of text and then returned the user's input, but i made it just print
     * How do the format specifiers differ than what you've seen before and what do they do? //it formats it all first with specifiers, so it puts the text in after as its own specifier
